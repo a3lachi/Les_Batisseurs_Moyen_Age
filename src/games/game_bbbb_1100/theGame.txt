@@ -1,0 +1,199 @@
+{
+  "id": 1100,
+  "currentPlayer": 1,
+  "moneyAvailable": 2444,
+  "workers": [
+    {
+      "id": 234,
+      "price": 5,
+      "stone": 0,
+      "wood": 0,
+      "knowledge": 2,
+      "tile": 3
+    },
+    {
+      "id": 229,
+      "price": 4,
+      "stone": 2,
+      "wood": 0,
+      "knowledge": 0,
+      "tile": 2
+    },
+    {
+      "id": 218,
+      "price": 4,
+      "stone": 0,
+      "wood": 0,
+      "knowledge": 1,
+      "tile": 3
+    },
+    {
+      "id": 238,
+      "price": 5,
+      "stone": 2,
+      "wood": 0,
+      "knowledge": 0,
+      "tile": 3
+    },
+    {
+      "id": 231,
+      "price": 4,
+      "stone": 2,
+      "wood": 1,
+      "knowledge": 1,
+      "tile": 0
+    }
+  ],
+  "buildings": [
+    {
+      "id": 100,
+      "reward": 0,
+      "victoryPoint": 2,
+      "stone": 0,
+      "wood": 2,
+      "knowledge": 1,
+      "tile": 0,
+      "stoneProduced": 3,
+      "woodProduced": 0,
+      "knowledgeProduced": 0,
+      "tileProduced": 0,
+      "workers": []
+    },
+    {
+      "id": 101,
+      "reward": 0,
+      "victoryPoint": 1,
+      "stone": 0,
+      "wood": 1,
+      "knowledge": 0,
+      "tile": 1,
+      "stoneProduced": 2,
+      "woodProduced": 0,
+      "knowledgeProduced": 0,
+      "tileProduced": 0,
+      "workers": []
+    },
+    {
+      "id": 100,
+      "reward": 0,
+      "victoryPoint": 2,
+      "stone": 0,
+      "wood": 2,
+      "knowledge": 1,
+      "tile": 0,
+      "stoneProduced": 3,
+      "woodProduced": 0,
+      "knowledgeeProduced": 0,
+      "tileProduced": 0,
+      "workers": []
+    },
+    {
+      "id": 103,
+      "reward": 0,
+      "victoryPoint": 1,
+      "stone": 1,
+      "wood": 0,
+      "knowledge": 1,
+      "tile": 0,
+      "stoneProduced": 0,
+      "woodProduced": 2,
+      "knowledgeProduced": 0,
+      "tileProduced": 0,
+      "workers": []
+    },
+    {
+      "id": 104,
+      "reward": 0,
+      "victoryPoint": 1,
+      "stone": 0,
+      "wood": 1,
+      "knowledge": 1,
+      "tile": 0,
+      "stoneProduced": 0,
+      "woodProduced": 0,
+      "knowledgeProduced": 0,
+      "tileProduced": 2,
+      "workers": []
+    }
+  ],
+  "remainingWorkers": 37,
+  "remainingBuildings": 36,
+  "nextWorker": {
+    "id": 234,
+    "price": 5,
+    "stone": 0,
+    "wood": 0,
+    "knowledge": 2,
+    "tile": 3
+  },
+  "nextBuilding": {
+    "id": 100,
+    "reward": 0,
+    "victoryPoint": 2,
+    "stone": 0,
+    "wood": 2,
+    "knowledge": 1,
+    "tile": 0,
+    "stoneProduced": 3,
+    "woodProduced": 0,
+    "knowledgeeProduced": 0,
+    "tileProduced": 0,
+    "workers": {}
+  },
+  "done": false,
+  "name": "bbbb",
+  "createDate": "2020-11-08T23:07:12.147Z",
+  "players": [
+    {
+      "id": 1,
+      "finishedBuildings": [],
+      "availableWorkers": [
+        {
+          "id": 0,
+          "price": 2,
+          "stone": 0,
+          "wood": 2,
+          "knowledge": 1,
+          "tile": 0
+        }
+      ],
+      "underConstructionBuildings": [
+        {
+          "id": 102,
+          "reward": 0,
+          "victoryPoint": 2,
+          "stone": 0,
+          "wood": 0,
+          "knowledge": 2,
+          "tile": 1,
+          "stoneProduced": 0,
+          "woodProduced": 3,
+          "knowledgeProduced": 0,
+          "tileProduced": 0,
+          "workers": []
+        }
+      ],
+      "money": 10,
+      "victoryPoints": 0,
+      "actions": 2
+    },
+    {
+      "id": 2,
+      "finishedBuildings": [],
+      "availableWorkers": [
+        {
+          "id": 0,
+          "price": 2,
+          "stone": 0,
+          "wood": 2,
+          "knowledge": 1,
+          "tile": 0
+        }
+      ],
+      "underConstructionBuildings": [],
+      "money": 10,
+      "victoryPoints": 0,
+      "actions": 3
+    }
+  ]
+}

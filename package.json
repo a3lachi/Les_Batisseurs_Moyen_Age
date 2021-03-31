@@ -1,0 +1,63 @@
+{
+  "name": "les-batisseurs-backend",
+  "version": "1.0.0",
+  "description": "Les Bâtisseurs - Moyen-Âge Backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js -e js,json,yaml --ignore storage/ --ignore '*.test.js'",
+    "start:debug": "nodemon --inspect --exec babel-node src/index.js -e js,json,yaml --ignore storage/ --ignore '*.test.js'",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/JulienUsson/les-batisseurs-backend.git"
+  },
+  "keywords": [
+    "batisseurs",
+    "game",
+    "api",
+    "rest"
+  ],
+  "author": "Julien Usson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/JulienUsson/les-batisseurs-backend/issues"
+  },
+  "homepage": "https://gitlab.com/JulienUsson/les-batisseurs-backend#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.23.3",
+    "lodash": "^4.17.20",
+    "morgan": "^1.10.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^23.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^22.21.0",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
+    "superagent": "^5.3.1",
+    "supertest": "^4.0.2"
+  }
+}
