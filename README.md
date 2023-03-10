@@ -1,1 +1,1 @@
-First Dev experience, I coded a game front-end using JavaScript
+First Dev experience, I coded a game backend using Node.js
